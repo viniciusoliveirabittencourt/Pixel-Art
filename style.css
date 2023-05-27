@@ -1,6 +1,14 @@
+#color-palet {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  flex-direction: row;
+}
+
 .paint-collor {
+  margin: 5px 10px;
   width: 100px;
   height: 100px;
-  border: 1px solid black;
+  border: 1px solid #000000;
   border-radius: 50%;
 }
