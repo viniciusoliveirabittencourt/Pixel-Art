@@ -5,3 +5,13 @@ The project will have some challenges that will be here on README, you can check
 ## 1 - Add to page the title "Pixel Art"
 
 - The title must be on a tag `h1`
+
+## 2 - Add a color palette with 4 distinct collors
+
+- The background color must be the color element
+
+- Cannot be a background color white
+
+- Every element must have a black, solid border with 1px
+
+- The Color palette cannot repeat colors
