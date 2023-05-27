@@ -16,3 +16,19 @@ h1 {
   border: 1px solid #000000;
   border-radius: 50%;
 }
+
+#first {
+  background-color: aqua;
+}
+
+#second {
+  background-color: red;
+}
+
+#three {
+  background-color: blueviolet;
+}
+
+#four {
+  background-color: yellowgreen;
+}
