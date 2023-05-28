@@ -2,7 +2,7 @@
 A project using HTML/CSS/JS to create a mini game where you can paint the squares to make your on art, just to train some HTML/CSS/JS on hard code.
 The project will have some challenges that will be here on README, you can check them bellow.
 
-## 1 - Add to page the title "Pixel Art"
+## 1 - Add the title "Pixel Art" to page
 
 - The title must be on a tag `h1`
 
@@ -19,3 +19,13 @@ The project will have some challenges that will be here on README, you can check
 ## 3 - Add black color as the first color of palette
 
 - The background color of first element of the color palette must be black
+
+## 4 - Add a pixel grid with 25 pixels to the page
+
+- The pixels grind must be 5 elements wide and 5 elements long
+
+- The pixel background color initial must be white
+
+- The pixels must have 40px wide and 40px long
+
+- The pixels must have a solid black 1px border
