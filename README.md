@@ -26,6 +26,4 @@ The project will have some challenges that will be here on README, you can check
 
 - The pixel background color initial must be white
 
-- The pixels must have 40px wide and 40px long
-
 - The pixels must have a solid black 1px border
