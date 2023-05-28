@@ -17,6 +17,10 @@ h1 {
   border-radius: 50%;
 }
 
+#black {
+  background-color: #000000;
+}
+
 #first {
   background-color: aqua;
 }

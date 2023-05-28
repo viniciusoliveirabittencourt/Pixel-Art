@@ -15,3 +15,7 @@ The project will have some challenges that will be here on README, you can check
 - Every element must have a black, solid border with 1px
 
 - The Color palette cannot repeat colors
+
+## 3 - Add black color as the first color of palette
+
+- The background color of first element of the color palette must be black
