@@ -31,3 +31,7 @@ The project will have some challenges that will be here on README, you can check
 ## 5 - The black color must be selected
 
 - The black color must be selected by default
+
+## 6 - The selected color can be changed
+
+- When you select another color, they will change how are selected
