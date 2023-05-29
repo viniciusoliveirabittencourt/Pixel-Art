@@ -27,3 +27,7 @@ The project will have some challenges that will be here on README, you can check
 - The pixel background color initial must be white
 
 - The pixels must have a solid black 1px border
+
+## 5 - The black color must be selected
+
+- The black color must be selected by default
