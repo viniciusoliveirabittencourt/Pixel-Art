@@ -39,3 +39,7 @@ The project will have some challenges that will be here on README, you can check
 ## 7 - Clicking on a pixel change their background color
 
 - When you cliking on a pixel, their background color must be equal te color selected on color of palette
+
+## 8 - Create a button to clean all pixels
+
+- This button must clean all the pixels when cliked
