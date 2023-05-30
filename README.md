@@ -35,3 +35,7 @@ The project will have some challenges that will be here on README, you can check
 ## 6 - The selected color can be changed
 
 - When you select another color, they will change how are selected
+
+## 7 - Clicking on a pixel change their background color
+
+- When you cliking on a pixel, their background color must be equal te color selected on color of palette
