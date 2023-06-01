@@ -40,22 +40,6 @@ button {
   background-color: #000000;
 }
 
-#one {
-  background-color: aqua;
-}
-
-#two {
-  background-color: red;
-}
-
-#three {
-  background-color: blueviolet;
-}
-
-#four {
-  background-color: yellowgreen;
-}
-
 .selected {
   border: 3px solid rgb(185, 185, 0);
 }
