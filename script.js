@@ -5,6 +5,16 @@ const quantityPixels = document.getElementById('pixels');
 quantityPixels.addEventListener('click', changePixelsQuantity);
 const clearPixels = document.getElementById('clear-pixels').addEventListener('click', clearAllPixels);
 
+function generateHexadecimal() {
+  let myHexa = "#";
+
+  for (let i = 0; i < 6; i += 1) {
+    myHexa += parseInt(Math.random() * 9);
+  };
+
+  return myHexa;
+}
+
 function removeAndAddPixelsGrind() {
   const grind = document.getElementById('grind');
   grind.removeChild(grindPixel);
