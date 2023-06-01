@@ -49,3 +49,9 @@ The project will have some challenges that will be here on README, you can check
 - The user can select the quantity of colums and lines at same time, if select 7, will have 7 colums and 7 lines, making 49 pixels
 
 - The minimun is 5 and maximum is 50
+
+## 10 - Make the colors generate random when the page reload
+
+- Colors need to be randomly generated
+
+- Black must remain
