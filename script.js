@@ -1,7 +1,31 @@
-const grindPixel = document.getElementById('grind-pixel');
+let grindPixel = document.getElementById('grind-pixel');
 let selected = document.getElementsByClassName('selected')[0];
 const colors = document.getElementsByClassName('paint-collor');
+const quantityPixels = document.getElementById('pixels');
+quantityPixels.addEventListener('click', changePixelsQuantity);
 const clearPixels = document.getElementById('clear-pixels').addEventListener('click', clearAllPixels);
+
+function removeAndAddPixelsGrind() {
+  const grind = document.getElementById('grind');
+  grind.removeChild(grindPixel);
+  const newGrind = document.createElement('tbody');
+  newGrind.id = 'grind-pixel';
+  grind.appendChild(newGrind);
+  grindPixel = newGrind;
+}
+
+function changePixelsQuantity(_) {
+  removeAndAddPixelsGrind();
+  for(let i = 0; i < quantityPixels.value; i += 1) {
+    const createColum = document.createElement('tr');
+    for(let i = 0; i < quantityPixels.value; i += 1) {
+      const createLine = document.createElement('td');
+      createLine.addEventListener('click', changePixel);
+      createColum.appendChild(createLine);
+    };
+    grindPixel.appendChild(createColum);
+  };
+}
 
 function changeSelected(e) {
   if (e.target.id !== selected) {
@@ -27,9 +51,9 @@ for(let i = 0; i < colors.length; i += 1) {
 };
 
 
-for(let i = 0; i < 5; i += 1) {
+for(let i = 0; i < quantityPixels.value; i += 1) {
   const createColum = document.createElement('tr');
-  for(let i = 0; i < 5; i += 1) {
+  for(let i = 0; i < quantityPixels.value; i += 1) {
     const createLine = document.createElement('td');
     createLine.addEventListener('click', changePixel);
     createColum.appendChild(createLine);
