@@ -4,6 +4,7 @@ const colors = document.getElementsByClassName('paint-collor');
 const quantityPixels = document.getElementById('pixels');
 quantityPixels.addEventListener('click', changePixelsQuantity);
 const clearPixels = document.getElementById('clear-pixels').addEventListener('click', clearAllPixels);
+const allRandom = document.getElementsByClassName('rand');
 
 function generateHexadecimal() {
   let myHexa = "#";
@@ -70,3 +71,7 @@ for(let i = 0; i < quantityPixels.value; i += 1) {
   };
   grindPixel.appendChild(createColum);
 };
+
+for(let i = 0; i < allRandom.length; i += 1) {
+  allRandom[i].style.backgroundColor = generateHexadecimal();
+}
