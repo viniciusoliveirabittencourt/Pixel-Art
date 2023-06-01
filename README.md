@@ -55,3 +55,7 @@ The project will have some challenges that will be here on README, you can check
 - Colors need to be randomly generated
 
 - Black must remain
+
+## 11 - Make a color that can be chosen by the user
+
+- This color can be chosen by user
