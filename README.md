@@ -43,3 +43,9 @@ The project will have some challenges that will be here on README, you can check
 ## 8 - Create a button to clean all pixels
 
 - This button must clean all the pixels when cliked
+
+## 9 - Make the pixel grid the size the user wants
+
+- The user can select the quantity of colums and lines at same time, if select 7, will have 7 colums and 7 lines, making 49 pixels
+
+- The minimun is 5 and maximum is 50
