@@ -5,6 +5,13 @@ const quantityPixels = document.getElementById('pixels');
 quantityPixels.addEventListener('click', changePixelsQuantity);
 const clearPixels = document.getElementById('clear-pixels').addEventListener('click', clearAllPixels);
 const allRandom = document.getElementsByClassName('rand');
+const changeColor = document.getElementById('change');
+const inputColor = document.getElementById('input-color');
+inputColor.addEventListener('change', colorChange);
+
+function colorChange(e) {
+  changeColor.style.backgroundColor = inputColor.value;
+}
 
 function generateHexadecimal() {
   let myHexa = "#";
