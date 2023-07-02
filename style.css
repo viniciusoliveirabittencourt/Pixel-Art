@@ -43,3 +43,8 @@ button {
 .selected {
   border: 3px solid rgb(185, 185, 0);
 }
+
+.grind-pixel {
+  max-width: 581px;
+  max-height: 581px;
+}

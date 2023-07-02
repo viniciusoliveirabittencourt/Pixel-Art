@@ -3,11 +3,23 @@ let selected = document.getElementsByClassName('selected')[0];
 const colors = document.getElementsByClassName('paint-collor');
 const quantityPixels = document.getElementById('pixels');
 quantityPixels.addEventListener('click', changePixelsQuantity);
+const allPixels = document.getElementsByTagName('td');
 const clearPixels = document.getElementById('clear-pixels').addEventListener('click', clearAllPixels);
 const allRandom = document.getElementsByClassName('rand');
 const changeColor = document.getElementById('change');
 const inputColor = document.getElementById('input-color');
 inputColor.addEventListener('change', colorChange);
+
+function responsiveGridPixel() {
+  let widthGrindPixel = grindPixel.offsetWidth;
+  if (widthGrindPixel > 581) {
+    let newAreaPixel = 581 / quantityPixels.value;
+    for (let i = 0; i < allPixels.length; i += 1) {
+      allPixels[i].style.width = `${newAreaPixel}px`;
+      allPixels[i].style.height = `${newAreaPixel}px`;
+    }
+  }
+}
 
 function colorChange(e) {
   changeColor.style.backgroundColor = inputColor.value;
@@ -43,6 +55,7 @@ function changePixelsQuantity(_) {
     };
     grindPixel.appendChild(createColum);
   };
+  responsiveGridPixel();
 }
 
 function changeSelected(e) {
@@ -58,7 +71,6 @@ function changePixel(e) {
 };
 
 function clearAllPixels(_) {
-  const allPixels = document.getElementsByTagName('td');
   for (let i = 0; i < allPixels.length; i += 1) {
     allPixels[i].style.backgroundColor = 'white';
   }
